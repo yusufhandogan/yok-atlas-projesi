@@ -7,6 +7,7 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+from scrapy.cfg import db_password
 BOT_NAME = 'YOK_ATLAS'
 
 SPIDER_MODULES = ['YOK_ATLAS.spiders']
@@ -18,7 +19,7 @@ FEED_EXPORT_ENCODING = 'utf-8'
 CONNECTION_STRING = "{drivername}://{user}:{passwd}@{host}:{port}/{db_name}?charset=utf8".format(
     drivername="mysql",
     user="root",
-    passwd="yd--7979",
+    passwd=db_password,
     host="localhost",
     port="3306",
     db_name="atlas",
