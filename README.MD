@@ -109,6 +109,6 @@ Repoya göz attığınız için teşekkürler. Daha nice projelerde buluşmak di
 
 ## Lisanslar
 
-Tamamen açık kaynak bir paylaşımdır. İstediğiniz gibi geliştirip, kullanabilirsiniz.
+Tamamen açık kaynak bir paylaşımdır. İstediğiniz gibi geliştirip, kullanabilirsiniz. Tabi ticari kullanım olmamak koşulu ile
 
 [MIT](https://choosealicense.com/licenses/mit/)
